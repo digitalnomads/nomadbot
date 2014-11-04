@@ -1,5 +1,4 @@
 [
-  "hubot-seen",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
@@ -11,5 +10,5 @@
   "hubot-principles",
   "hubot-tell",
   "hubot-fliptable",
-  "hubot-github-repo-event-notifier"
+  "hubot-seen"
 ]
