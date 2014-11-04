@@ -15,7 +15,8 @@
     "hubot-scripts": "^2.5.16",
     "hubot-seen": "^0.2.0",
     "hubot-shipit": "^0.1.1",
-    "hubot-slack": "^2.2.0"
+    "hubot-slack": "^2.2.0",
+    "hubot-victory": ">= 0.0.0"
   },
   "engines": {
     "node": "0.10.x"
