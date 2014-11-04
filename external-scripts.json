@@ -11,5 +11,6 @@
   "hubot-principles",
   "hubot-tell",
   "hubot-sentimental",
-  "hubot-fliptable"
+  "hubot-fliptable",
+  "hubot-github-repo-event-notifier"
 ]
