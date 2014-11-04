@@ -10,5 +10,6 @@
   "hubot-principles",
   "hubot-tell",
   "hubot-fliptable",
-  "hubot-seen"
+  "hubot-seen",
+  "hubot-markov"
 ]
