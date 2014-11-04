@@ -7,5 +7,6 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-victory"
+  "hubot-victory",
+  "hubot-principles"
 ]
