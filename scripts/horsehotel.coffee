@@ -22,7 +22,7 @@ horses = [
 ]
 
 module.exports = (robot) ->
-  regex = /horse\s/
+  regex = /horse/
 
   robot.hear regex, (msg) ->
     msg.send msg.random horses
