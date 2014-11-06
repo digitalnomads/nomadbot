@@ -8,5 +8,6 @@
   "hubot-shipit",
   "hubot-principles",
   "hubot-tell",
-  "hubot-fliptable"
+  "hubot-fliptable",
+  "hubot-seen"
 ]
