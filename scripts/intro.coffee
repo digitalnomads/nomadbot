@@ -1,7 +1,8 @@
 module.exports = (robot) ->
-  mainRoom = 'nomadbot'
+  enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
+  leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
+  
   robot.enter (msg) ->
-    if msg.match[2] = mainRoom
-      msg.send "Welcome #{msg.message.user.name}! Please introduce yourself and mention your nomad status."
-    else
-      console.log "#{msg.message.user.name} enters #{msg.match[2]}"
+    msg.send msg.random enterReplies
+  robot.leave (msg) ->
+    msg.send msg.random leaveReplies
