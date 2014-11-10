@@ -79,7 +79,7 @@ module.exports = (robot) ->
   robot.respond /seen @?([-\w._]+):? ?(.*)/, (msg) ->
     if msg.match[1] == "in" and msg.match[2] == "last 24h"
       users = seen.usersSince(24)
-      msg.send "Active in #{msg.match[2]} (#{users.length} users): #{users.join(', ')}"
+      msg.send "Active in #{msg.match[2]} (*#{users.length} users*): #{users.join(', ')}"
     else
       dbg "seen check #{clean msg.match[1]}"
       nick = msg.match[1]
