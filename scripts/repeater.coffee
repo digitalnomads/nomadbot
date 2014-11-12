@@ -6,6 +6,6 @@ module.exports = (robot) ->
 
     # ignore topic and other messages
     return if typeof message.user.id == 'undefined'
-    return if message.user.room == broadcastChannel
 
-    robot.messageRoom broadcastChannel, "@#{msg.message.user.name} in ##{msg.message.user.room} is saying -> #{msg.message.text}"
+    #Turn it off for now
+    #robot.messageRoom broadcastChannel, "@#{msg.message.user.name} in ##{msg.message.user.room} is saying -> #{msg.message.text}"
