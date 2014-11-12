@@ -5,4 +5,4 @@ module.exports = (robot) ->
     # ignore topic and other messages
     return if typeof message.user.id == 'undefined'
 
-    robot.messageRoom '_repeater', message
+    robot.messageRoom '#_repeater', message
