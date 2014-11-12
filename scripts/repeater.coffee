@@ -5,4 +5,4 @@ module.exports = (robot) ->
     # ignore topic and other messages
     return if typeof message.user.id == 'undefined'
 
-    robot.messageRoom '#_repeater', "#{msg.message.user.room} #{msg.message.user.name}: #{msg.message.text}"
+    robot.messageRoom '#_repeater', "Nomad @#{msg.message.user.name} in ##{msg.message.user.room} is saying #{msg.message.text}"
