@@ -3,9 +3,8 @@ infoMessages = ['Join #_gear to find tips on equipment, clothes and other goddie
 "The first rule of #_smart-drugs is: You do not talk about #_smart-drugs. The second rule of #_smart-drugs is: You do not talk about #_smart-drugs ..."]
 
 module.exports = (robot) ->
-  robot.hear /tip please*$/i, (msg) ->
+  robot.hear /!tip/i, (msg) ->
     message = msg.message
-    console.log('tip please')
 
     broadcastChannel = '#-_nomads'
 
