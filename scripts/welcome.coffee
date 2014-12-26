@@ -3,11 +3,12 @@ leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
 
 module.exports = (robot) ->
   robot.enter (msg) ->
-    console.log "enter msg: #{msg}"
+    for key, value of msg
+      console.log "#{key} is #{value}"
 
   robot.hear  /.*$/i ,(msg) ->
-    #for key, value in msg
-    console.log JSON.stringify msg
+    for key, value of msg
+      console.log "#{key} is #{value}"
 
     if msg.subtype is 'channel_join'
       msg.send msg.random enterReplies
