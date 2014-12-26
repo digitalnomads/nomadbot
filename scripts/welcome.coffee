@@ -2,9 +2,6 @@ enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I
 leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
 
 module.exports = (robot) ->
-  robot.enter (msg) ->
-    console.log ('enterrring!')
-    msg.send msg.random enterReplies
-  robot.leave (msg) ->
-    console.log ('leaving!')
-    msg.send msg.random leaveReplies
+  robot.hear  /.*$/i ,(msg) ->
+    if msg.subtype is 'channel_join'
+      msg.send msg.random enterReplies
