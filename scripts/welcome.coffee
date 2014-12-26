@@ -6,7 +6,8 @@ module.exports = (robot) ->
     console.log "enter msg: #{msg}"
 
   robot.hear  /.*$/i ,(msg) ->
-    console.log "#{msg}"
+    #for key, value in msg
+    console.log JSON.stringify msg
 
     if msg.subtype is 'channel_join'
       msg.send msg.random enterReplies
