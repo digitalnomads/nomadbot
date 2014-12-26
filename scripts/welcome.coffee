@@ -3,10 +3,12 @@ leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
 
 module.exports = (robot) ->
   robot.enter (msg) ->
+    console.log 'enter is here'
     for key, value of msg
       console.log "#{key} is #{value}"
 
   robot.hear  // ,(msg) ->
+    console.log 'message is here'
     for key, value of msg
       console.log "#{key} is #{value}"
 
