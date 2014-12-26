@@ -27,7 +27,9 @@ horses = [
   "http://st.houzz.com/simgs/37e140b40e299c80_15-0438/contemporary-dining-room.jpg",
   "http://www.bradycarlson.com/wp-content/uploads/2012/08/hotelhorse081612.jpg",
   "http://i.dailymail.co.uk/i/pix/2012/01/12/article-2085589-0F69E53A00000578-369_634x414.jpg",
-  "http://i4.dailyrecord.co.uk/incoming/article1121037.ece/alternates/s615/stephanie-noble-horse-921638326.jpg"
+  "http://i4.dailyrecord.co.uk/incoming/article1121037.ece/alternates/s615/stephanie-noble-horse-921638326.jpg",
+  "http://www.horsesdaily.com/sites/default/files/listo_in_living_room_0.jpg",
+  "http://www.nakedcapitalism.com/wp-content/uploads/2014/01/horse_indoors.jpg"
 ]
 
 module.exports = (robot) ->
