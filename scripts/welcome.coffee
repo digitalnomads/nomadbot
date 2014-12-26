@@ -3,6 +3,6 @@ leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
 
 module.exports = (robot) ->
   robot.hear  /.*$/i ,(msg) ->
-    console.log msg.subtype
+    console.log "msg.subtype:#{msg.subtype}"
     if msg.subtype is 'channel_join'
       msg.send msg.random enterReplies
