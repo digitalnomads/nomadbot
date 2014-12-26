@@ -6,7 +6,7 @@ module.exports = (robot) ->
     for key, value of msg
       console.log "#{key} is #{value}"
 
-  robot.hear  /.*$/i ,(msg) ->
+  robot.hear  // ,(msg) ->
     for key, value of msg
       console.log "#{key} is #{value}"
 
