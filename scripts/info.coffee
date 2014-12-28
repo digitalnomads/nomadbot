@@ -4,7 +4,7 @@ infoMessages = ["Join #_coders to have a conversation that most of us don't unde
 "Do you feel like hitting your boss in the head? Tell us about it at #_nomad-beginners",
 "Tell us about your #_ideas, so everyone can steal them... You weren't gonna do it anyway.",
 "Throw your money out the window, join the #_bitcoin revolution",
-"You're still reading this? Go to #_productivity",
+"You're still reading this? Go to #_productivity", "In an average living room there are 1,242 objects Chuck Norris could use to kill you, #_housing"
 "What nomads need, other than backpacks. #_gear Please don't ask about backpacks.",
 "We don't have idea that it's for, but it sounds good #_music"]
 
