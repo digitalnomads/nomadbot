@@ -5,8 +5,8 @@ infoMessages = ["Join #_coders to have a conversation that most of us don't unde
 "Tell us about your #_ideas, so everyone can steal them... You weren't gonna do it anyway.",
 "Throw your money out the window, join the #_bitcoin revolution",
 "You're still reading this? Go to #_productivity", "In an average living room there are 1,242 objects Chuck Norris could use to kill you, #_housing"
-"What nomads need, other than backpacks. #_gear Please don't ask about backpacks.",
-"We don't have idea that it's for, but it sounds good #_music"]
+"What nomads need, other than backpacks - #_gear",
+"We don't have idea that it's for, but it sounds good #_music", "Made the wrong choice to use PHP again for your project? Check out #_ruby and #_javascript"]
 
 module.exports = (robot) ->
   robot.hear /!tip/i, (msg) ->
